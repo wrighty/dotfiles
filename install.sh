@@ -1,6 +1,6 @@
 #!/bin/sh
 
+dir="$( cd "$(dirname "$0")" ; pwd -P )"
 
-
-ln -s $(pwd)/.vimrc ~/.vimrc
-ln -s $(pwd)/.vim ~/.vim
+ln -s "$dir"/.vimrc ~/.vimrc
+ln -s "$dir"/.vim ~/.vim
