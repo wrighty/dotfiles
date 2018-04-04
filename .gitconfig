@@ -1,0 +1,5 @@
+[user]
+	email = git@wrighty.com
+	name = Paul Wright
+[alias]
+	st = status
